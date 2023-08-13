@@ -1,0 +1,50 @@
+.page-contact {
+  /* background-color: rgba(104, 102, 102, 0.8) !important; */
+}
+.page-contact .title {
+  font-weight: 300;
+}
+.page-contact .form-control {
+  border-color: var(--theme-red) !important;
+}
+.page-contact .form-control:focus {
+  /* box-shadow: none !important; */
+  border-color: var(--theme-red) !important;
+  /* box-shadow: var(--theme-red) !important;
+   */
+  box-shadow: 0 0 5pt 0.5pt var(--theme-red);
+}
+.page-contact .form-button {
+  border: 1px solid var(--theme-red);
+  color: var(--theme-red);
+  transition: 0.5s;
+}
+.page-contact .form-button:hover {
+  background-color: var(--theme-red);
+  color: white;
+}
+.page-contact .contant a {
+  text-decoration: none;
+  color: var(--theme-red);
+}
+.page-contact .icons {
+  display: flex;
+}
+.page-contact .icons .wrap-icon a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* background-color: #ddd; */
+  border: 1px solid var(--theme-red);
+  margin: 7px 10px 0 0;
+  font-size: 20px;
+  color: var(--theme-red);
+  transition: 0.5s;
+}
+.page-contact .icons .wrap-icon a:hover {
+  background-color: var(--theme-red);
+  color: white;
+}

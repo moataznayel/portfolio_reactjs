@@ -1,0 +1,38 @@
+.navbar {
+  background-color: rgba(104, 102, 102, 0.8) !important;
+  top: auto;
+  left: 0;
+  width: 100%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  /* background-color: rgba(104, 102, 102, 0.8); */
+  z-index: 99;
+}
+.navbar .logo {
+  color: white;
+  font-weight: 400;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: var(--theme-white);
+}
+.navbar .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}
+.navbar .download {
+  padding: 0 20px;
+
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  line-height: 50px;
+  font-weight: 500;
+  background-color: var(--theme-red);
+  color: var(--theme-white);
+}
